@@ -1,0 +1,1 @@
+Text for tell.\nИспользуйте кодировку utf-8.\nBecause there are 2 languages!\nСпасибо!\n
