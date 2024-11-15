@@ -4,10 +4,7 @@ def personal_sum(numbers):
     incorrect_data = 0
     for number in numbers:
         try:
-            if isinstance(number, (int, float)):
-                result += number
-            else:
-                raise TypeError
+            result += number
         except TypeError:
             print(f'Некорректный тип данных для подсчёта суммы - {number}')
             incorrect_data += 1
