@@ -33,4 +33,4 @@ class TournamentTest(TestCase):
         self.all_results['test_race3'] = {place: str(runner) for place, runner in result.items()}
 
     if __name__ == '__main__':
-        unittest.main()
+        main()
