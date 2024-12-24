@@ -32,5 +32,5 @@ class TournamentTest(TestCase):
         self.assertTrue(result[list(result.keys())[-1]] == 'Ник', 'Ник всегда должен быть последним!')
         self.all_results['test_race3'] = {place: str(runner) for place, runner in result.items()}
 
-    if __name__ == '__main__':
-        main()
+if __name__ == '__main__':
+    main()
